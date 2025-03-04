@@ -25,6 +25,6 @@ variable "instance_type" {
 }
 
 variable port {
-  type = number
-  default = 22
+  type = list
+  default = [22, 80]
 }
